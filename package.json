@@ -1,0 +1,26 @@
+{
+  "name": "02_pizza",
+  "version": "1.0.0",
+  "description": "'Ejemplo Pizza'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "William Nazate",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "graphql-import": "^0.7.1",
+    "graphql-server-express": "^1.4.1",
+    "graphql-tools": "^4.0.6",
+    "nodemon": "^2.0.2",
+    "pg-promise": "^10.3.2"
+  }
+}
